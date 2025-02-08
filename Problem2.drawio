@@ -1,0 +1,16 @@
+Algoritmo ConversionMetrosAPulgadas
+    // Declaración de variables
+    Definir metros, pulgadas Como Real
+	
+    // Solicitar la longitud en metros al usuario
+    Escribir "Conversión de metros a pulgadas"
+    Escribir "Introduce la longitud en metros:"
+    Leer metros
+	
+    // Realizar la conversión
+    pulgadas <- (metros * 100) / 2.54
+	
+    // Mostrar el resultado
+    Escribir "La longitud en pulgadas es: ", pulgadas
+	
+FinAlgoritmo

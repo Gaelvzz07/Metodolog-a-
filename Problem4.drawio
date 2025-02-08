@@ -1,0 +1,20 @@
+Algoritmo CalculoPerimetroAreaRectangulo
+    // Declaración de variables
+    Definir ancho, altura, perimetro, area Como Real
+	
+    // Solicitar al usuario el ancho y la altura del rectángulo
+    Escribir "Cálculo del perímetro y área de un rectángulo"
+    Escribir "Introduce el ancho del rectángulo:"
+    Leer ancho
+    Escribir "Introduce la altura del rectángulo:"
+    Leer altura
+	
+    // Calcular el perímetro y el área
+    perimetro <- 2 * (ancho + altura)
+    area <- ancho * altura
+	
+    // Mostrar los resultados
+    Escribir "El perímetro del rectángulo es: ", perimetro
+    Escribir "El área del rectángulo es: ", area
+	
+FinAlgoritmo

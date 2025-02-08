@@ -1,0 +1,24 @@
+Algoritmo CalculoExpresionMatematica
+    // Declaración de variables
+    Definir a, b, c, d, e, resultado Como Real
+	
+    // Solicitar los valores de las variables al usuario
+    Escribir "Cálculo de la expresión: a + b * c / d - e"
+    Escribir "Introduce el valor de a:"
+    Leer a
+    Escribir "Introduce el valor de b:"
+    Leer b
+    Escribir "Introduce el valor de c:"
+    Leer c
+    Escribir "Introduce el valor de d (distinto de 0):"
+    Leer d
+    Escribir "Introduce el valor de e:"
+    Leer e
+	
+    // Calcular la expresión matemática
+    resultado <- a + (b * c) / d - e
+	
+    // Mostrar el resultado
+    Escribir "El resultado de la expresión es: ", resultado
+	
+FinAlgoritmo

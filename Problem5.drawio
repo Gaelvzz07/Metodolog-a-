@@ -1,0 +1,17 @@
+Algoritmo CalculoVolumenAreaEsfera
+    // Declaración de variables
+    Definir radio, volumen, area Como Real
+	
+    // Solicitar el radio de la esfera al usuario
+    Escribir "Cálculo del volumen y área de una esfera"
+    Escribir "Introduce el radio de la esfera:"
+    Leer radio
+	
+    // Calcular el área y el volumen
+    area <- 4 * 3.14159 * (radio^2)
+    volumen <- (4 / 3) * 3.14159 * (radio^3)
+	
+    // Mostrar los resultados
+    Escribir "El área de la esfera es: ", area
+    Escribir "El volumen de la esfera es: ", volumen
+FinAlgoritmo

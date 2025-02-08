@@ -1,0 +1,20 @@
+Algoritmo CalculoDiscriminante
+    // Declaración de variables
+    Definir a, b, c, discriminante Como Real
+	
+    // Solicitar los coeficientes al usuario
+    Escribir "Cálculo del discriminante de una ecuación cuadrática"
+    Escribir "Introduce el coeficiente a (distinto de 0):"
+    Leer a
+    Escribir "Introduce el coeficiente b:"
+    Leer b
+    Escribir "Introduce el coeficiente c:"
+    Leer c
+	
+    // Calcular el discriminante
+    discriminante <- (b^2) - (4 * a * c)
+	
+    // Mostrar el resultado
+    Escribir "El discriminante de la ecuación es: ", discriminante
+	
+FinAlgoritmo
